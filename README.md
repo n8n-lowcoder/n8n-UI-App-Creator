@@ -1,46 +1,86 @@
-> **Note**  
-> Lowcoder continues from the abandoned Openblocks project. For more information [read our manifesto](MANIFESTO.md).
 
 <div align="center">
-    <h1 style="border-bottom: none; margin-bottom: 0">Lowcoder</h1>
-    <h3 style="margin-top: 0">This is the only Platform, which closes the gap between App Development, Website Development,  interactive Slides/Presentations and Collaboration Tools!</h3>
-    <p>
-        Create software applications (internal and customer-facing!) and Meeting/Collaboration tools for your Company and your Customers with minimal coding experience. 
-    </p>
-    <h3 style="margin-top: 0">We think, Lowcoder is simply better than Retool, Appsmith Tooljet, Outsystems or Mendix.</h3>
-</div>
----
-
-## 🎥 Lowcoder Intro Video  
-<div align="center">
-    <a href="https://www.youtube.com/watch?v=AQo0iFWUWiU" target="_blank">
-        <img src="https://img.youtube.com/vi/AQo0iFWUWiU/maxresdefault.jpg" alt="Lowcoder Intro Video" width="100%">
-    </a>
-    <p><i>Click the image above to watch the video on YouTube</i> 📺</p>
+  <h1 style="border-bottom: none; margin-bottom: 0">Lowcoder</h1>
+  <h3 style="margin-top: 0">The Best UI Frontend App Builder for n8n</h3>
+  <p>
+    Turn your n8n automations into beautiful, functional web applications with minimal effort. Lowcoder is the bridge between backend workflows and real user interaction.
+  </p>
+  <h3 style="margin-top: 0">No iFrames. No deployment hassle. Just powerful UI that works seamlessly with n8n.</h3>
 </div>
 
 ---
-## 📢 Use Lowcoder in 3 steps
-1. Connect to any data sources or APIs.
-2. Build flexible and responsive UI with 120+ components and free layout / design possibilities.
-3. Share with colleagues and customers.
 
-## 💡 Why Lowcoder
-One platform for everything instead so many different softwares. (like Website Builders, CMS, CRM, POS, ERP, Dashboards & Data Story Visualization, Collaboration Tools).
+## 🎥 Lowcoder Intro Video
 
-It's cumbersome to create a single app. You had to design user interfaces, write code in multiple languages and frameworks, and understand how all of that code works together.
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=AQo0iFWUWiU" target="_blank">
+    <img src="https://img.youtube.com/vi/AQo0iFWUWiU/maxresdefault.jpg" alt="Lowcoder Intro Video" width="100%">
+  </a>
+  <p><i>Click the image above to watch the video on YouTube</i> 📺</p>
+</div>
 
-NewGen Lowcode Platforms like Retool and others are great for their simplicity and flexibility - like Lowcoder too, but they can also be limited in different ways, especially when it comes to "external" applications for everyone - because their pricing focusses to internal apps and "pay per User".
+---
 
-With Lowcoder we did a step forward. More specifically, Lowcoder is:
-- An all-in-one IDE to create internal or customer-facing (external) apps.
-- A place to create, build and share building blocks of web applications and whole websites.
-- The tool and community to support your business, and lower the cost and time to develop interactive applications.
-- The only platform to embed Lowcode Apps natively in Websites (no iFrame!)
-- The only platform where you can build your own Meeting Tool - like Teams, Zoom or Google Meets, - just in the Lowcode way.
-- The only platform which has extensibility plugin architecture [Check Community Contributions](https://www.npmjs.com/search?q=lowcoder-comp)
+## 🚀 Lowcoder ❤️ n8n
+
+n8n is one of the world’s leading open-source automation tools. But automation needs a face.
+
+**Lowcoder is the frontend builder your n8n flows deserve.**
+
+- Turn workflows into real web apps, dashboards, forms, and portals
+- Let users interact with your automations: fill forms, trigger workflows, view real-time status
+- Use Lowcoder together with n8n via REST API, Webhooks, or our native [n8n-nodes-lowcoder](https://www.npmjs.com/package/n8n-nodes-lowcoder)
+- We're working closely with the n8n team in Berlin for deeper native integration (stay tuned!)
+
+### ✅ What You Can Build with n8n + Lowcoder
+
+* AI Agent Interfaces: Design interactive frontends for AI agents or LLM-powered workflows
+* Customer portals and Websites linked to n8n logic
+* Collaborative tools and meeting apps
+* Approval workflows with human interaction
+* Lead capture forms that trigger automations
+* Internal admin panels to trigger and monitor n8n flows
+* AI Agent Interfaces: Design interactive frontends for AI agents or LLM-powered workflows
+* Anything that needs a beautiful UI on top of automation
+
+#### Even more powerful use cases
+
+**Build Dashboards**
+Design custom dashboards with complete control over every detail, connecting to databases or APIs to present and drill down into your data.
+Lowcoder provides unmatched precision for tailoring every aspect's appearance to satisfy brand and corporate requirements.
+
+**Build Business Apps**
+Create any type of internal or customer-facing applications that automate and support business processes with ease.
+You can even build public "external" apps for your customers and users.
+
+**Build interactive Data Stories**
+Static infographics are past! You can build dynamic, interactive experiences. Add real-time data, animations, images, and visual effects to tell compelling stories.
+Push the boundaries of data storytelling with Lowcoder.
+
+**Build Meeting Apps**
+Develop your own video conferencing platforms like Teams, Zoom, or Google Meets, customized with unique styles and functions.
+You can even embed your other apps for enhanced team collaboration.
+
+**Build Mini Apps to embed in Websites and CMSs**
+Easily extend your CMS, webshop, or website with mini apps using Lowcoder.
+Say goodbye to the need for costly developers and complex integrations.
+
+**Build ERP, CRM, POS or eCommerce Software**
+Companies even develop complete software systems like ERP, CRM, POS, or eCommerce platforms with Lowcoder.
+This helps them reduce R\&D costs by nearly 90%.
+
+**Modernize Old IT Systems**
+Seamlessly modernize the UI of legacy IT systems like AS400, DB2, Solaris, and other industry mainframes.
+Bridge the gap to mobile applications, extending the reach of your legacy systems into the digital age.
+
+
+### 🔮 Coming Soon: Lowcoder as MCP Client for n8n
+Lowcoder will soon work as a **Managed Component Provider (MCP)** directly inside n8n — so you can auto-generate frontend apps for your flows. Build full-stack low-code applications with flow logic and responsive UI, all without touching a line of React or HTML.
+
+---
 
 ## 🪄 Features
+
 - **Visual UI builder** with 120+ built-in components. Save 90% of time to build apps.
 - **Modules** for reusable (!) embedable component sets in the UI builder.
 - **Embed Lowcoder Apps as native parts of any Website** instead of iFrame (!). [Demo](http://demo-lowcoder.42web.io/ecommerce/), [Docu](https://docs.lowcoder.cloud/lowcoder-documentation/lowcoder-extension/native-embed-sdk)
@@ -53,64 +93,93 @@ With Lowcoder we did a step forward. More specifically, Lowcoder is:
 - **Role-based access control (RBAC)** for granular permission management. [Docu](https://docs.lowcoder.cloud/lowcoder-documentation/workspaces-and-teamwork/members-and-groups)
 - **Auto-saved and restorable history** for release and version control.
 - **App Themes and Theme Editor** to precisely align with your company's brand guidelines.
-
 - **Self Hosting** to use Lowcoder in your internal company network, even behind the firewall. [Docu](https://docs.lowcoder.cloud/lowcoder-documentation/setup-and-run/self-hosting)
 - **Free Community Cloud** to start within a minute and build your first Apps. [Start here](https://app.lowcoder.cloud)
 
-## 🏆 Comparisons
-### Lowcoder vs Teams, Google Meets, Zoom
-- build a Meeting tool with peace in mind. Blue buttons - ok. Red corners or circle Videostream - ok too.
-- embedd applications in your Video-Meetings, so attendees can enjoy collaborative "anything". From shopping to working and gaming...
-### Lowcoder vs Powerapps
-- build a apps way faster than in Power Apps. Save up to 50& of the time and costs at least.
-- Use self-hosting to keep all apps and data under your control for example at the own baremetals.
-### Lowcoder vs Retool
-- Lowcoder is open-source. You don't need to worry about vendor lock-in or being stuck with an outdated version of the software.
-- In Lowcoder, developers can build truly responsive apps - not as cumbersome as the "Desktop / Mobile switch" in Retool
-- Lowcoder is free and you can contribute!
-- With Lowcoder you can design better Apps. More Layout & Design Components as also better support for powerful Data & Admin Dashboards.
-- The EE Version of Lowcoder comes with a much better pricing model, so you have no "per-user costs".
-### Lowcoder vs Appsmith, Tooljet
-- Lowcoder has more components and richer configuration than Appsmith and Tooljet.
-- In Lowcoder, you can choose auto-height or fixed-height mode for your components, while Appsmith supports fixed-height mode only.
-- In Lowcoder, you can reuse common structures when building apps with modules and query library features.
-### Lowcoder vs Mendix, Outsystems, Pega
-- Lowcoder is modern. The codebase is fresh and uses modern standards.
-- Lowcoder Apps do not need a compile and deployment. Just publish and use. Within seconds!
-- Lowcoder Apps can get embedded natively in websites and apps, even in mobile apps.
-### Lowcoder vs internal Tool platforms
-- Lowcoder supports internal tools like admin panels perfectly, but also customer-facing apps can get developed and published.
-- The Lowcoder UI builder is straightforward and better to use than Bubble.
-- App release cycles and updates can be done nearly daily without service downtimes for customers and users.
+---
 
+## 🏆 Comparisons
+
+### Lowcoder vs Retool
+- Open-source and free to start
+- Real responsive layout, not just mobile/desktop switching
+- More components and better layout freedom
+- Enterprise Edition pricing without "per-user" costs
+- Developer-friendly: embed in any stack, self-host anytime
+
+### Lowcoder vs Appsmith, Tooljet
+- More UI flexibility (auto/fixed height)
+- Reusable UI patterns with modules
+- Faster real-time collaboration and dashboards
+
+### Lowcoder vs Mendix, Outsystems, Pega
+- Fresh, modern codebase
+- No build/deploy required — instant publish
+- Native embed into other apps and mobile
+
+### Lowcoder vs Bubble or internal tool platforms
+- Great for internal apps **and** customer-facing portals
+- Straightforward for teams used to UI builders
+- Update and publish without downtime
+
+---
 
 ## 👐 Support and Community
-If you have any questions, please feel free to contact us or share them with our community. Our team is here ready to help.
-And we mean it... Day by day!
 
-📮 Best way is to chat with us on [Discord](https://discord.gg/qMG9uTmAx2)
+We’re here for you — every day:
 
-📑 Search for solutions in our [Documentation](https://docs.lowcoder.cloud/lowcoder-documentation/)
+📬 Chat with us on [Discord](https://discord.gg/qMG9uTmAx2)  
+📁 Explore our [Documentation](https://docs.lowcoder.cloud/lowcoder-documentation/)  
+🔎 Report bugs or ideas via [GitHub Issues](https://github.com/lowcoder-org/lowcoder/issues)
 
-🔎 Submit an issue here on [GitHub](https://github.com/lowcoder-org/lowcoder/issues)
+---
 
 ## 💻 Deployment Options
-[![Deploy to AWS using Stitch](https://img.shields.io/badge/deploy_with-Stitch-%23E369F7?logo=amazonaws&color=%23E369F7)](https://deploy.stitch.tech/lowcoder/lowcoder)
 
-[![Deploy to Elestio](https://img.shields.io/badge/Deploy_to-Elestio-%23E369F7?color=orange)](https://elest.io/open-source/lowcoder)
+Jump in directly at [app.lowcoder.cloud](https://app.lowcoder.cloud) or install Lowcoder yourself.
+Lowcoder supports a wide range of self-hosting options to fit your infrastructure.
 
-You can access Lowcoder from [cloud-hosted version](https://app.lowcoder.cloud/) at any time, or use the following resources for self-host Lowcoder on different platforms:
-- [Docker](https://docs.lowcoder.cloud/lowcoder-documentation/setup-and-run/self-hosting)
+**Private Hosted Option** (Managed by the Lowcoder Team)
+Let us host Lowcoder for you as a secure and convenient private instance.
+Enjoy full control and flexibility without infrastructure overhead. Contact us to get started. [Lowcoder Pricing](https://www.lowcoder.cloud/pricing)
 
-## 💪 Contributing
-- Language support: If you have experience with a language that isn't currently supported by our product, send us a pull request.
-- Create and share components or demos: If you've created something that might be useful to others, add the link here.
-- [Contributing guide](https://docs.lowcoder.cloud/lowcoder-documentation/lowcoder-extension/opensource-contribution)
+**Install in under 5 minutes with Docker**
+Run Lowcoder locally or on a server with Docker Compose for a fast and simple setup.
+[Self-host with Docker](https://docs.lowcoder.cloud/lowcoder-documentation/setup-and-run/self-hosting)
 
-Special tanks goes to [@sjhoeksma](https://github.com/sjhoeksma), [@mousheng](https://github.com/mousheng), [@mat02](https://github.com/mat02), [@jomedya](https://github.com/jomedya) and many other contributors!
+**Install on Elest.io**
+Run Lowcoder with one click on managed infrastructure.
+👉 [https://elest.io/open-source/lowcoder](https://elest.io/open-source/lowcoder)
 
-## 🥇 Sponsors
-Accelerate the growth of Lowcoder and unleash its potential with your Sponsorship – together, we're shaping the future of Lowcode for everyone!
-[Be a Sponsor](https://github.com/sponsors/lowcoder-org)
+**Install with Easypanel**
+Use a visual server manager to host Lowcoder easily.
+👉 [Self-host with Easypanel](https://docs.lowcoder.cloud/lowcoder-documentation/setup-and-run/self-hosting/easypanel)
 
-Like ...  [@Darkjamin](https://github.com/Darkjamin), [@spacegoats-io](https://github.com/spacegoats-io), [@Jomedya](https://github.com/Jomedya), [@CHSchuepfer](https://github.com/CHSchuepfer), Thank you very much!!
+**Install on Google Cloud**
+Deploy Lowcoder with scalable resources on GCP.
+👉 [Google Cloud Deployment](https://docs.lowcoder.cloud/lowcoder-documentation/setup-and-run/self-hosting/google-cloud-platform)
+
+**Install on AWS or Azure**
+Deploy using Docker or Helm Charts on major cloud platforms.
+👉 [AWS / Azure Setup Guide](https://docs.lowcoder.cloud/lowcoder-documentation/setup-and-run/self-hosting/google-cloud-platform)
+
+**Install on Raspberry Pi**
+Run Lowcoder at the edge, at home, or in IoT scenarios.
+👉 [Install on Raspberry Pi](https://docs.lowcoder.cloud/lowcoder-documentation/setup-and-run/self-hosting/raspberry-pi)
+
+**Install with Coolify**
+Use Coolify's PaaS-like experience to run Lowcoder using a ready-to-go template.
+👉 [Coolify Template](https://github.com/coollabsio/coolify/blob/main/templates/compose/lowcoder.yaml)
+
+
+---
+
+## 🙌 Join Us
+
+Lowcoder is open source and community-driven.  
+Build with us. Extend it. Shape the frontend future of automation.
+
+- [Contributing Guide](https://docs.lowcoder.cloud/lowcoder-documentation/lowcoder-extension/opensource-contribution)
+- [Explore Community Components](https://www.npmjs.com/search?q=lowcoder-comp)
+
+Thank you to all contributors and sponsors helping us bring the frontend revolution to the world of automation.
