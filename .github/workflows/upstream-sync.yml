@@ -1,25 +1,27 @@
-name: Sync upstream
+name: Sync upstream changes
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Every day at 03:00 UTC
-  workflow_dispatch:      # Allows manual trigger from Actions tab
+    - cron: '0 3 * * *'  # Daily at 03:00 UTC
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout forked repo
         uses: actions/checkout@v3
         with:
           persist-credentials: false
+          fetch-depth: 0  # Full history for merging
 
-      - name: Set Git config
+      - name: Set up Git
         run: |
           git config --global user.email "bot@lowcoder.org"
           git config --global user.name "Lowcoder Sync Bot"
 
-      - name: Add upstream remote
+      - name: Add upstream and fetch
         run: |
           git remote add upstream https://github.com/lowcoder-org/lowcoder.git
           git fetch upstream
@@ -28,4 +30,31 @@ jobs:
         run: |
           git checkout main
           git merge upstream/main -Xours --allow-unrelated-histories || true
-          git push origin main || true
+
+      - name: Revert protected files
+        run: |
+          git checkout HEAD -- \
+            .gitbook.yaml \
+            .sonar-project.properties \
+            .gitbook/dependabot.yml \
+            .gitbook/workflows/client.yml \
+            .gitbook/workflows/codeql.yml \
+            .gitbook/workflows/docker-images.yml \
+            .gitbook/workflows/node-service.yml \
+            .gitbook/workflows/publish-lowcoder-cli.yml \
+            .gitbook/workflows/publish-lowcoder-comps.yml \
+            .gitbook/workflows/publish-lowcoder-core.yml \
+            .gitbook/workflows/publish-lowcoder-sdk.yml \
+            .gitbook/workflows/sonarcloud.yml \
+            .codeql/codeql-config.yaml \
+            README.md
+
+      - name: Commit and push if changes
+        run: |
+          git status
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git commit -am "Sync from upstream (preserved protected files)"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
