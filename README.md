@@ -171,6 +171,17 @@ Run Lowcoder at the edge, at home, or in IoT scenarios.
 Use Coolify's PaaS-like experience to run Lowcoder using a ready-to-go template.
 👉 [Coolify Template](https://github.com/coollabsio/coolify/blob/main/templates/compose/lowcoder.yaml)
 
+---
+
+## 📌 Repository Notice
+This repository is a fully updated clone of the official Lowcoder project. It reflects the latest source code and functionality from the main Lowcoder repository.
+
+To ensure that all improvements, fixes, and ideas are properly tracked and shared with the core development team, we kindly ask:
+
+👉 Please submit all bug reports, feature requests, and issues to the main repository:
+https://github.com/lowcoder-org/lowcoder/issues
+
+Thank you for helping us keep the development workflow streamlined and transparent!
 
 ---
 
