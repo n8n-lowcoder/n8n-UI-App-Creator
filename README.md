@@ -102,11 +102,11 @@ Lowcoder will soon work as a **Managed Component Provider (MCP)** directly insid
 
 ## 🏆 Comparisons
 
-### Lowcoder vs Retool
+### Lowcoder is the better Retool Alternative
 - Open-source and free to start
 - Real responsive layout, not just mobile/desktop switching
 - More components and better layout freedom
-- Enterprise Edition pricing without "per-user" costs
+- **Enterprise Edition pricing without "per-user" costs**
 - Developer-friendly: embed in any stack, self-host anytime
 
 ### Lowcoder vs Appsmith, Tooljet
@@ -115,7 +115,7 @@ Lowcoder will soon work as a **Managed Component Provider (MCP)** directly insid
 - Faster real-time collaboration and dashboards
 
 ### Lowcoder vs Mendix, Outsystems, Pega
-- Fresh, modern codebase
+- Lowcoder has a fresh, modern codebase. Lightweight, faster App Building.
 - No build/deploy required — instant publish
 - Native embed into other apps and mobile
 
