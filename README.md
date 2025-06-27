@@ -1,7 +1,9 @@
 
 <div align="center">
+  
   <h1 style="border-bottom: none; margin-bottom: 0">Lowcoder</h1>
   <h3 style="margin-top: 0">The Best UI Frontend App Builder for n8n</h3>
+  <img src="https://avatars.githubusercontent.com/u/217028538?s=200&v=4" alt="Lowcoder Logo" width="100" style="margin-bottom: 10px" />
   <p>
     Turn your n8n automations into beautiful, functional web applications with minimal effort. Lowcoder is the bridge between backend workflows and real user interaction.
   </p>
