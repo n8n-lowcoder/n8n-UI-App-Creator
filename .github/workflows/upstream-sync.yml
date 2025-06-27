@@ -1,0 +1,31 @@
+name: Sync upstream
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Every day at 03:00 UTC
+  workflow_dispatch:      # Allows manual trigger from Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout forked repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Set Git config
+        run: |
+          git config --global user.email "bot@lowcoder.org"
+          git config --global user.name "Lowcoder Sync Bot"
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/lowcoder-org/lowcoder.git
+          git fetch upstream
+
+      - name: Merge upstream changes
+        run: |
+          git checkout main
+          git merge upstream/main -Xours --allow-unrelated-histories || true
+          git push origin main || true
