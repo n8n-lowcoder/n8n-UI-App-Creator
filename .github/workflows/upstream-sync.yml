@@ -31,23 +31,23 @@ jobs:
           git checkout main
           git merge upstream/main -Xours --allow-unrelated-histories || true
 
-      - name: Revert protected files
+      - name: Remove protected files from satellite repo
         run: |
-          git checkout HEAD -- \
-            .gitbook.yaml \
-            .sonar-project.properties \
-            .gitbook/dependabot.yml \
-            .gitbook/workflows/client.yml \
-            .gitbook/workflows/codeql.yml \
-            .gitbook/workflows/docker-images.yml \
-            .gitbook/workflows/node-service.yml \
-            .gitbook/workflows/publish-lowcoder-cli.yml \
-            .gitbook/workflows/publish-lowcoder-comps.yml \
-            .gitbook/workflows/publish-lowcoder-core.yml \
-            .gitbook/workflows/publish-lowcoder-sdk.yml \
-            .gitbook/workflows/sonarcloud.yml \
-            .codeql/codeql-config.yaml \
-            README.md
+          echo "Deleting protected files from satellite clone"
+          rm -f .gitbook.yaml
+          rm -f .sonar-project.properties
+          rm -f .codeql/codeql-config.yaml
+          rm -f .gitbook/dependabot.yml
+          rm -f .gitbook/workflows/client.yml
+          rm -f .gitbook/workflows/codeql.yml
+          rm -f .gitbook/workflows/docker-images.yml
+          rm -f .gitbook/workflows/node-service.yml
+          rm -f .gitbook/workflows/publish-lowcoder-cli.yml
+          rm -f .gitbook/workflows/publish-lowcoder-comps.yml
+          rm -f .gitbook/workflows/publish-lowcoder-core.yml
+          rm -f .gitbook/workflows/publish-lowcoder-sdk.yml
+          rm -f .gitbook/workflows/sonarcloud.yml
+          echo "Protected files removed."
 
       - name: Commit and push if changes
         run: |
